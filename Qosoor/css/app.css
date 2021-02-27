@@ -1,13 +1,14 @@
 :root {
     --bg-color: #fcfcfc;
     --primary-color: #ffad12;
-    --light-primary-color: #FABF43;
+    --light-primary-color: #d4d2cc;
     --secoundry-color: #989898;
 }
 
 body {
     background-color: var(--bg-color);
     font-family: 'gess-light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .h1,
@@ -33,7 +34,9 @@ a,
 .logo {
     max-width: 150px;
 }
-
+.navbar {
+    height: 120px;
+}
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show>.nav-link {
     color: var(--primary-color);
@@ -51,10 +54,12 @@ a,
     left: 0;
 }
 
-.top {
+.top-0 {
     top: 0;
 }
-
+.bottom-0 {
+    bottom: 0;
+}
 .btn-primary {
     padding: 5px 15px;
     color: #fff;
@@ -78,6 +83,29 @@ a,
     box-shadow: 0 0 0 0.25rem var(--light-primary-color);
 }
 
-.h-80vh {
-    min-height: 80vh;
+.h-70vh {
+    min-height: 70vh;
+}
+.add-occasion {
+    height: 288px;
+}
+.rounded-left {
+    border-top-left-radius: 1.25rem !important;
+    border-bottom-left-radius: 1.25rem !important;
+}
+.px-5 {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+}
+.add-occasion {
+    box-shadow: 0 6px 10px 0 var(--light-primary-color);
+}
+.z-1 {
+    z-index: 111;
+}
+.lang-en {
+    border-radius: 50%;
+}
+.p2 {
+    padding: 2px 15px;
 }
